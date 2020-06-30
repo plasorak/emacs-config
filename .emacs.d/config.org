@@ -854,6 +854,6 @@
 #+END_SRC
 * Atomic Chrome
 #+BEGIN_SRC emacs-lisp
-(require 'atomic-chrome)
-(atomic-chrome-start-server)
+  ;; (require 'atomic-chrome)
+  ;; (atomic-chrome-start-server)
 #+END_SRC
