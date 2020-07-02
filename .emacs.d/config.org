@@ -155,7 +155,7 @@
 #+END_SRC
 ** Default dir
 #+BEGIN_SRC emacs-lisp
-(setq default-directory "~/Dropbox/Sussex_Postdoc")
+  ;; (setq default-directory "~/Dropbox/Sussex_Postdoc")
 #+END_SRC
 ** Remove case sensitivity
 #+BEGIN_SRC emacs-lisp
@@ -445,8 +445,8 @@
 #+END_SRC
 * ROOT
 #+BEGIN_SRC emacs-lisp
-(setq load-path (cons "/Users/pierrelasorak/Documents/ROOT/root_build" load-path))
-(require 'root-help)
+  ;; (setq load-path (cons "/Users/pierrelasorak/Documents/ROOT/root_build" load-path))
+  ;; (require 'root-help)
 #+END_SRC
 * Autocomplete
 #+BEGIN_SRC emacs-lisp
@@ -854,6 +854,6 @@
 #+END_SRC
 * Atomic Chrome
 #+BEGIN_SRC emacs-lisp
-(require 'atomic-chrome)
-(atomic-chrome-start-server)
+  ;; (require 'atomic-chrome)
+  ;; (atomic-chrome-start-server)
 #+END_SRC
