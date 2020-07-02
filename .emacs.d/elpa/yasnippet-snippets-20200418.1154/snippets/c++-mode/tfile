@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: TFile
+# key: tfile
+# --
+TFile ${1:name}(\"${2:FilePath}\",\"${3:$$(yas-choose-value '("RECREATE" "READ"))}\");
+$0

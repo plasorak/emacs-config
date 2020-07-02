@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: for_auto_const
+# key: forac
+# --
+for (auto const& ${1:iterator}: ${2:stlcontainer}) {
+    $0
+}

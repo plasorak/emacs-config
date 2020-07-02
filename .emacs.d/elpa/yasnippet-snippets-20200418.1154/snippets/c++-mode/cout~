@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# contributor: York Zhao <gtdplatform@gmail.com>
+# name: cout
+# key: cout
+# --
+std::cout << $1 << "\n";
+$0

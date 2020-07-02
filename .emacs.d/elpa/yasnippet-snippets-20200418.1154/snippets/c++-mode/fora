@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: for_auto
+# key: fora
+# --
+for (auto& ${1:iterator}: ${2:stlcontainer}) {
+    $0
+}

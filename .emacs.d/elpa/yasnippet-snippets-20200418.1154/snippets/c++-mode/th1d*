@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: th1d*
+# key: th1d*
+# --
+TH1D* ${1:Name} = new TH1D(\"$1\",\";${2:XAxisTitle};${3:YAxisTitle}\",${5:NBinsX},${6:BinMinX},${7:BinMaxX});$0

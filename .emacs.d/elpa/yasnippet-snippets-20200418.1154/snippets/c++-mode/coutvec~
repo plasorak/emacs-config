@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: coutvec
+# key: coutvec
+# --
+std::cout << \"$1.size() : \" << $1.size() << "\n";
+for (size_t it=0; it<$1.size(); ++it)
+  std::cout << "it " << it << " : " << $1[it] << "\n";$0

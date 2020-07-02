@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: debug
+# key: debug
+# --
+std::cout << "Function: " << __FUNCTION__ << " line: " << __LINE__ << " in file: " << __FILE__ << "\n";

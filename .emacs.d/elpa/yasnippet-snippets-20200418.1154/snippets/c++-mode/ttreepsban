@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: TTree_Pointer_SetBranchAddress_Null
+# key: ttreepsban
+# --
+std::vector<${1:class}>* ${2:varname} = NULL;
+${3:treename}->SetBranchAddress("$2", &${2});
+$0

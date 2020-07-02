@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: TTree_for
+# key: ttreefor
+# --
+for (int ${1:iterator} = 0; $1<${2:treename}${3:$$(yas-choose-value '("." "->"))}GetEntries(); ++$1) {
+    $2$3GetEntry($1);
+    $0
+}

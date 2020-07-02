@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: York Zhao <gtdplatform@gmail.com>
+# name: cout
+# key: cout
+# --
+std::cout << "\033[32m" << $1 << "\033[0m\n";$0

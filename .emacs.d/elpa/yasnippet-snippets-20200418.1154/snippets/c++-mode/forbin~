@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: forbin
+# key: forbin
+# --
+for (size_t ${1:iterator}=0; $1<${2:stlcontainer}${3:$$(yas-choose-value '("." "->"))}size(); ++$1) {
+    $0
+}

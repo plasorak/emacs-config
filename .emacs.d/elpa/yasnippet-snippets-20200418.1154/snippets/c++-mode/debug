@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: debug
+# key: debug
+# --
+std::cout << "\033[32mFunction: " << __FUNCTION__ << " line: " << __LINE__ << " in file: " << __FILE__ << "\033[0m\n";

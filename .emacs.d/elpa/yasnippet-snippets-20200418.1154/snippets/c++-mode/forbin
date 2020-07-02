@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: forbin
+# key: forbin
+# --
+for (int ${1:iterator}=0; $1<=${2:histo}${3:$$(yas-choose-value '("." "->"))}GetNcells(); ++$1) {
+    $0
+}

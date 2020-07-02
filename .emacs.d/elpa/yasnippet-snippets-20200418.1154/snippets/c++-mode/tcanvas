@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: tcanvas
+# key: tcanvasopen
+# --
+TCanvas ${1:Name};
+$1.Print(\"${2:FileName}.pdf[\");
+${3:Object}->Draw();
+$1.Print(\"$2.pdf\");
+$1.Print(\"$2.pdf]\");
+$0

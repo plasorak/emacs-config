@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: tf1
+# key: tf1
+# --
+TF1 ${1:Name} (\"$1\", \"${2:Expression}\", ${3:XMin}, ${4:XMax});
+$0

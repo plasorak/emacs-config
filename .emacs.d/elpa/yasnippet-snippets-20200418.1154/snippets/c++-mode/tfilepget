@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: TFile_Pointer_get
+# key: tfilepg
+# --
+${1:class}* ${2:name} = ($1*) ${3:filename}->Get("${4:object}");
+$0

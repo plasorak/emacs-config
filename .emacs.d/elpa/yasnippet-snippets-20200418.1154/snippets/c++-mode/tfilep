@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: TFile_Pointer
+# key: tfilep
+# --
+TFile* ${1:name} = new TFile(\"${2:FilePath}\",\"${3:$$(yas-choose-value '("RECREATE" "READ"))}\");
+$0

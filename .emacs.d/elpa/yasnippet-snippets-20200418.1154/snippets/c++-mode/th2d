@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: th2d
+# key: th2d TH2D
+# --
+TH2D ${1:Name}(\"$1\",\";${2:XAxisTitle};${3:YAxisTitle};${4:ZAxisTitle}\",${5:NBinsX},${6:BinMinX},${7:BinMaxX},${8:NBinsY},${9:BinMinY},${10:BinMaxY});$0
